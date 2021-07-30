@@ -28,6 +28,8 @@ jobs:
         include:
           - build_variant: "mt7620"
             targets: "NEWIFI-MINI"
+          - build_variant: "mt7621-usb"
+            targets: "A040WQ"
     steps:
       - uses: actions/checkout@v2
       - name: Prepare environment
